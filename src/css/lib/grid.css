@@ -1,0 +1,114 @@
+
+/* define o containerer do body */
+.container {
+   width: min(96vw, 70rem);
+   margin: 0 auto;
+}
+
+.rowns {
+   position: relative;
+   display: flex;
+   flex-direction: row;
+}
+
+.rowap {
+   position: relative;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 1rem 0;
+   margin-left: -1rem;
+   margin-right: -1rem;
+}
+
+.row {
+   position: relative;
+   display: flex;
+   flex-direction: row;
+   margin-left: -1rem;
+   margin-right: -1rem;
+}
+
+[class*="col-"], .col {   
+   flex: 1;
+   max-width: 100%;  
+   padding-left: 1rem;
+   padding-right: 1rem;
+}
+
+[class*="coll-"], .coll {   
+   flex: 1;
+   max-width: 100%;  
+}
+
+.col-1,
+.coll-1 {
+   flex: 10%;
+   max-width: 10%;
+}
+
+.col-2,
+.coll-2 {
+   flex: 16.666666%;
+   max-width: 16.666666%;
+}
+
+.col-3,
+.coll-3 {
+   flex: 25%;
+   max-width: 25%;
+}
+
+.col-4,
+.coll-4 {
+   flex: 33.333333%;
+   max-width: 33.333333%;
+}
+
+.col-5,
+.coll-5 {
+   flex: 41.666666%;
+   max-width: 41.666666%;
+}
+
+.col-6,
+.coll-6 {
+   flex: 50%;
+   max-width: 50%;
+}
+
+.col-7,
+.coll-7 {
+   flex: 58.333333%;
+   max-width: 58.333333%;
+}
+
+.col-8,
+.coll-8 {
+   flex: 66.666666%;
+   max-width: 66.666666%;
+}
+
+.col-9,
+.coll-9 {
+   flex: 75%;
+   max-width: 75%;
+}
+
+.col-10,
+.coll-10 {
+   flex: 83.333333%;
+   max-width: 83.333333%;
+}
+
+.col-11,
+.coll-11 {
+   flex: 90%;
+   max-width: 90%;
+}
+
+.col-12,
+.coll-12 {
+   flex: 100%;
+   max-width: 100%;
+}

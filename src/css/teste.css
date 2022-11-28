@@ -1,0 +1,15 @@
+.section {
+   padding: 3rem 0;
+   border-bottom: solid 1.5px #212138;
+   background-color: #18182d;
+}
+
+.modelo {
+   padding: 0.8rem 1rem;
+   border-bottom: solid 1.5px #5f6276;
+   background-color: #777f8a;
+}
+.color {
+   padding: 0.8rem 1rem;
+   background-color: #4b4f7a;
+}

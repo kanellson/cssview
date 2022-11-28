@@ -1,0 +1,75 @@
+@import "./modules/header.css";
+@import "./modules/body.css";
+@import "./modules/footer.css";
+
+@import "./lib/grid.css";
+@import "./lib/rules.css";
+@import "./lib/screen.css";
+
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+:root {
+   --height_header: 5rem;
+}
+
+p,
+span {
+   font-size: 1rem;
+   font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-size: 1.2rem;
+   font-weight: 400;
+}
+
+a {
+   text-decoration: none;
+   font-size: 1rem;
+   color: #363b66;
+}
+
+ul,
+ol {
+   list-style-type: none;
+}
+
+input {
+   height: 2.6rem;
+   padding: 0.45rem 0.65rem;
+   border: 0;
+   font-size: 1rem;
+   color: #8484a3;
+   outline-style: none;
+}
+
+button {
+   border: 0;
+   background: none;
+   cursor: pointer;
+   color: #566098;
+   background-color: #d4daeb;
+}
+
+img {
+   display: block; max-width: 100%;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+   font-family: Raleway;
+   font-size: 1rem;
+}
