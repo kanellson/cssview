@@ -12,13 +12,18 @@
 
 <body>
    <main>
-
+      
       <section class="section">
          <div class="container">
-            <div class="row fx21">
+   <!-- 
+      linha com duas colunas => .col-1 deixei com 10% e faz par com col-11  
+      caso queira modificar a largura no breakpoints use a classe na mesma linha row fx21 até fx25 
+      => .fx21, .fx22, .fx23, .fx24, .fx25 isso fará com que cada .col almente um pouco a largura.
+   -->
+            <div class="row fx21"> 
                <div class="col-1">
                   <div class="modelo">
-                     <p>conteudo</p>
+                     <span>col-1 </span>
                   </div>
                </div>
                <div class="col-11">
@@ -27,6 +32,7 @@
                   </div>
                </div>
             </div>
+            <!-- new row -->
             <div class="row fx22">
                <div class="col-2">
                   <div class="modelo">
@@ -39,6 +45,7 @@
                   </div>
                </div>
             </div>
+            <!-- new row -->
             <div class="row fx23">
                <div class="col-3">
                   <div class="modelo">
@@ -51,6 +58,7 @@
                   </div>
                </div>
             </div>
+            <!-- new row -->
             <div class="row fx24">
                <div class="col-4">
                   <div class="modelo">
@@ -63,6 +71,7 @@
                   </div>
                </div>
             </div>
+            <!-- new row -->
             <div class="row fx23">
                <div class="col-5">
                   <div class="modelo">
@@ -75,6 +84,7 @@
                   </div>
                </div>
             </div>
+            <!-- new row -->
             <div class="row fx22">
                <div class="col-6">
                   <div class="modelo">
@@ -92,6 +102,15 @@
 
       <section class="section">
          <div class="container">
+   <!-- 
+      linha com tres colunas .col-4 que forma um grid.
+      no breackpoints tipo: 1204px 768px e 425px é passado na linha uma classe que define a quantidade 
+      de colunas. uso a referencia assim: md = 1024px, ms = 768px sm 425px e os numeros representam 
+      as colunas tipo .md3-ms2-sm2 
+      .md3 uma linha de 3 colunas
+      ms2 uma linha de 2 colunas
+      sm2 uma linha com 2 colunas que fica assim .md3-ms2-sm2
+   -->
             <div class="row md3-ms2-sm2">
                <div class="col-4">
                   <div class="modelo">
