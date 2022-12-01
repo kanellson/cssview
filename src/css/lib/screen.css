@@ -1,20 +1,17 @@
-
 /* max-width:64em 1024px */
 @media screen and (max-device-width:64em),
-screen and (max-width:64em) { 
+screen and (max-width:64em) {
 
-   
 }
 
 /* max-width:48em 768px */
-@media screen and (max-device-width:48em),
-screen and (max-width:48em) {
-   
-   
+@media screen and (max-device-width:50em),
+screen and (max-width:50em) {
+
 }
 
-/* max-width:27em 432px */
-@media screen and (max-device-width:27em),
-screen and (max-width:27em) {
-   
+/* max-width:27em 425px */
+@media screen and (max-device-width:26.6em),
+screen and (max-width:26.6em) and (orientation: landscape) {
+
 }

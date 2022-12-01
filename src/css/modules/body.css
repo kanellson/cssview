@@ -1,0 +1,50 @@
+
+section.section_lanche {
+   padding: 3rem 0;
+   min-height: auto;
+   /* background-image: linear-gradient(150deg, #346bd98e 0%, #dcdddf 50%, #6262d38a 100%); */
+}
+
+picture.cards_lanches {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   min-height: 15rem;   
+}
+
+.cards_lanches__item {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+}
+
+
+
+.cards_lanches__item img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.text_info {
+   position: absolute;
+   bottom: 0;
+   padding: 0.6rem 0.8rem;
+   width: 100%;
+   min-height: 30%;
+   z-index: 1;
+   background-color: #111343ac;   
+}
+
+.text_info h2 {
+   color: #fff;
+   font-weight: 600;
+   font-size: clamp(1rem, 5vw, 1.2rem);
+}
+
+.text_info span {
+   color: #bbb9c9;
+   font-weight: 500;
+   font-size: clamp(1.1rem, 5vw, 1.1rem);
+}
+

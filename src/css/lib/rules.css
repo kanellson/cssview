@@ -34,7 +34,8 @@ screen and (max-width:64em) {
    .md2-ms1-sm1>*,
    .md2-ms1-sm2>*,
    .md2-ms2-sm1>*,
-   .md2-ms2-sm2>* {
+   .md2-ms2-sm2>*,
+   .md2-ms1>* {
       flex: 50%;
       max-width: 50%;
    }
@@ -43,7 +44,8 @@ screen and (max-width:64em) {
    .md3-ms2-sm2>*,
    .md3-ms3-sm1>*,
    .md3-ms3-sm2>*,
-   .md3-ms3-sm3>* {
+   .md3-ms3-sm3>*,
+   .md3-ms1>* {
       flex: 33.333333%;
       max-width: 33.333333%;
    }
@@ -111,11 +113,15 @@ screen and (max-width:64em) {
 }
 
 /* max-width:48em 768px */
-@media screen and (max-device-width:48em),
-screen and (max-width:48em) {
+@media screen and (max-device-width:50em),
+screen and (max-width:50em) {
+
+   html {
+      font-size: 1rem;
+   }
 
    .container {
-      width: min(99vw, 70rem);
+      width: min(98vw, 70rem);
    }
 
    .rowns {
@@ -138,7 +144,9 @@ screen and (max-width:48em) {
    }
 
    .md2-ms1-sm1>*,
-   .md2-ms1-sm2>* {
+   .md2-ms1-sm2>*,
+   .md2-ms1>*,
+   .md3-ms1>* {
       flex: 100%;
       max-width: 100%;
    }
@@ -164,9 +172,13 @@ screen and (max-width:48em) {
 
 }
 
-/* max-width:27em 432px */
-@media screen and (max-device-width:27em),
-screen and (max-width:27em) {
+/* max-width:27em 425px */
+@media screen and (max-device-width:26.6em),
+screen and (max-width:26.6em) and (orientation: landscape) {
+
+   html {
+      font-size: 0.9rem;
+   }
 
    .container {
       width: min(98vw, 70rem);
@@ -193,7 +205,6 @@ screen and (max-width:27em) {
    }
 
    .md2-ms1-sm2>*,
-   .md3-ms2-sm2>*,
    .md3-ms3-sm2>*,
    .md4-ms2-sm1>*,
    .md4-ms3-sm2>*,

@@ -70,6 +70,6 @@ body {
    display: flex;
    flex-direction: column;
    min-height: 100vh;
-   font-family: Raleway;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    font-size: 1rem;
 }
