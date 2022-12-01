@@ -112,7 +112,7 @@ screen and (max-width:64em) {
 
 }
 
-/* max-width:48em 768px */
+/* max-width:50em 800px */
 @media screen and (max-device-width:50em),
 screen and (max-width:50em) {
 
