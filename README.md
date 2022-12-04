@@ -1,16 +1,12 @@
 <div align="center">
+   <h2>CssView Responsivo</h2>
+   <br />
+   ## Descrição do Projeto
+   CssView é uma estrutura de classes já predefinidas usando grids de 12 colunas e 
+   uma estrutura de 3 breakpoints usando max-width, isso mesmo desktop-first: 1024px, 800px e 600px.
 
-<h2>CssView Responsivo</h2>
-<br />
-<br />
-
- ## Descrição do Projeto
- CssView é uma estrutura de classes já predefinidas usando grids de 12 colunas e 
- uma estrutura de 3 breakpoints usando max-width, isso mesmo desktop-first: 1024px, 800px e 600px.
-
-<a href="https://github.com/kanellson/cssview/"><strong>➥ CssView Demo</strong></a>
-
-</div>
+   <a href="https://cssview.wooe.com.br/"><strong>➥ CssView Demo</strong></a>
+   </div>
 <br />
 
 ### Demo Screeshots

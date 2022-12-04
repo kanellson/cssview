@@ -1,12 +1,12 @@
 
 /* define o containerer do body */
 .container {
-   width: min(96vw, 70rem);
+   width: min(96vw, 80rem);
    margin: 0 auto;
 }
 
-.container-md {
-   width: min(90vw, 70rem);
+.containers {
+   width: min(90vw, 80rem);
    margin: 0 auto;
 }
 

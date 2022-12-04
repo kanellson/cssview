@@ -25,8 +25,7 @@ screen and (max-width:64em) {
       padding-right: 0.6rem;
    }
 
-   .md1-ms1-sm1>*,
-   .md1-ms3-sm2>* {
+   .flex-1>* {
       flex: 100%;
       max-width: 100%;
    }
@@ -35,7 +34,7 @@ screen and (max-width:64em) {
    .md2-ms1-sm2>*,
    .md2-ms2-sm1>*,
    .md2-ms2-sm2>*,
-   .md2-ms1>* {
+   .md2-ms1-sm1>* {
       flex: 50%;
       max-width: 50%;
    }
@@ -45,7 +44,7 @@ screen and (max-width:64em) {
    .md3-ms3-sm1>*,
    .md3-ms3-sm2>*,
    .md3-ms3-sm3>*,
-   .md3-ms1>* {
+   .md3-ms1-sm1>* {
       flex: 33.333333%;
       max-width: 33.333333%;
    }
@@ -60,62 +59,62 @@ screen and (max-width:64em) {
    }
 
    /* flexcols 1024 */
-   .fx2-1>* {
+   .fx21>* {
       flex: 20%;
       max-width: 20%;
    }
 
-   .fx2-1>*:last-child {
+   .fx21>*:last-child {
       flex: 1;
       max-width: 100%
    }
 
-   .fx2-2>* {
+   .fx22>* {
       flex: 25%;
       max-width: 25%;
    }
 
-   .fx2-2>*:last-child {
+   .fx22>*:last-child {
       flex: 1;
       max-width: 100%
    }
 
-   .fx2-3>* {
+   .fx23>* {
       flex: 30%;
       max-width: 30%;
    }
 
-   .fx2-3>*:last-child {
+   .fx23>*:last-child {
       flex: 1;
       max-width: 100%
    }
 
-   .fx2-4>* {
+   .fx24>* {
       flex: 35%;
       max-width: 35%;
    }
 
-   .fx2-4>*:last-child {
+   .fx24>*:last-child {
       flex: 1;
       max-width: 100%
    }
 
-   .fx2-5>* {
+   .fx25>* {
       flex: 40%;
       max-width: 40%;
    }
 
-   .fx2-5>*:last-child {
+   .fx25>*:last-child {
       flex: 1;
       max-width: 100%
    }
 
-   .fx2-6>* {
+   .fx26>* {
       flex: 50%;
       max-width: 50%;
    }
 
-   .fx2-6>*:last-child {
+   .fx26>*:last-child {
       flex: 1;
       max-width: 100%
    }
@@ -155,8 +154,8 @@ screen and (max-width:50em) {
 
    .md2-ms1-sm1>*,
    .md2-ms1-sm2>*,
-   .md2-ms1>*,
-   .md3-ms1>* {
+   .md2-ms1-sm1>*,
+   .md3-ms1-sm1>* {
       flex: 100%;
       max-width: 100%;
    }
@@ -239,22 +238,22 @@ screen and (max-width:37.5em) and (orientation: landscape) {
       gap: 0.6rem 0;
    }
 
-   .fx2-1-1 > *,
-   .fx2-2-1 > *,
-   .fx2-3-1 > *,
-   .fx2-4-1 > *,
-   .fx2-5-1 > *,
-   .fx2-6-1 > * {
+   .fx21-1 > *,
+   .fx22-1 > *,
+   .fx23-1 > *,
+   .fx24-1 > *,
+   .fx25-1 > *,
+   .fx26-1 > * {
       flex: 100%;
       max-width: 100%;
    }
 
-   .fx2-1-2 > *,
-   .fx2-2-2 > *,
-   .fx2-3-2 > *,
-   .fx2-4-2 > *,
-   .fx2-5-2 > *,
-   .fx2-6-2 > * {
+   .fx21-2 > *,
+   .fx22-2 > *,
+   .fx23-2 > *,
+   .fx24-2 > *,
+   .fx25-2 > *,
+   .fx26-2 > * {
       flex: 50%;
       max-width: 50%;
    }

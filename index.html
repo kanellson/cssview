@@ -6,21 +6,31 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>cssview demo</title>
-   <link rel="stylesheet" href="src/css/main.css"> 
-   <link rel="stylesheet" href="src/css/demo.css">   
+   <link rel="stylesheet" href="src/css/main.css">
+   <link rel="stylesheet" href="src/css/demo.css">
+   <link rel="stylesheet" href="src/css/prism.css">
 </head>
 
 <body>
    <main>
-      
+
       <section class="section_demo">
          <div class="container">
-   <!-- 
+            <!-- 
       linha com duas colunas => .col-1 deixei com 10% e faz par com col-11  
       caso queira modificar a largura no breakpoints use a classe na mesma linha row fx21 até fx25 
       => .fx21, .fx22, .fx23, .fx24, .fx25 isso fará com que cada .col almente um pouco a largura.
    -->
-            <div class="row fx21"> 
+            <!-- new row -->
+
+            <div class="row">
+               <div class="col">
+                  <div class="card_demo">
+                     <p>col</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row fx22">
                <div class="col-1">
                   <div class="card_demo">
                      <span>col-1 </span>
@@ -33,7 +43,7 @@
                </div>
             </div>
             <!-- new row -->
-            <div class="row fx22">
+            <div class="row fx23">
                <div class="col-2">
                   <div class="card_demo">
                      <p>col-2</p>
@@ -46,7 +56,7 @@
                </div>
             </div>
             <!-- new row -->
-            <div class="row fx23">
+            <div class="row fx24">
                <div class="col-3">
                   <div class="card_demo">
                      <p>col-3</p>
@@ -59,7 +69,7 @@
                </div>
             </div>
             <!-- new row -->
-            <div class="row fx24">
+            <div class="row fx25">
                <div class="col-4">
                   <div class="card_demo">
                      <p>col-4</p>
@@ -72,7 +82,7 @@
                </div>
             </div>
             <!-- new row -->
-            <div class="row fx23">
+            <div class="row fx26">
                <div class="col-5">
                   <div class="card_demo">
                      <p>col-5</p>
@@ -97,12 +107,85 @@
                   </div>
                </div>
             </div>
+            <!-- new row -->
+            <div class="row fx23">
+               <div class="col-7">
+                  <div class="card_demo">
+                     <p>col-7</p>
+                  </div>
+               </div>
+               <div class="col-5">
+                  <div class="card_demo">
+                     <p>col-5</p>
+                  </div>
+               </div>
+            </div>
+            <!-- new row -->
+            <div class="row fx24">
+               <div class="col-8">
+                  <div class="card_demo">
+                     <p>col-8</p>
+                  </div>
+               </div>
+               <div class="col-4">
+                  <div class="card_demo">
+                     <p>col-4</p>
+                  </div>
+               </div>
+            </div>
+            <!-- new row -->
+            <div class="row fx25">
+               <div class="col-9">
+                  <div class="card_demo">
+                     <p>col-9</p>
+                  </div>
+               </div>
+               <div class="col-3">
+                  <div class="card_demo">
+                     <p>col-3</p>
+                  </div>
+               </div>
+            </div>
+            <!-- new row -->
+            <div class="row fx26">
+               <div class="col-10">
+                  <div class="card_demo">
+                     <p>col-10</p>
+                  </div>
+               </div>
+               <div class="col-2">
+                  <div class="card_demo">
+                     <p>col-2</p>
+                  </div>
+               </div>
+            </div>
+            <!-- new row -->
+            <div class="row fx22">
+               <div class="col-11">
+                  <div class="card_demo">
+                     <p>col-11</p>
+                  </div>
+               </div>
+               <div class="col-1">
+                  <div class="card_demo">
+                     <p>col-1</p>
+                  </div>
+               </div>
+            </div>
+            <!-- new row -->
+            <div class="row fx23">
+               <div class="col-12">
+                  <div class="card_demo">
+                     <p>col-12</p>
+                  </div>
+               </div>
+            </div>
          </div>
       </section>
 
       <section class="section_demo">
          <div class="container">
-   <!-- 
+            <!-- 
       linha com tres colunas .col-4 que forma um grid.
       no breackpoints tipo: 1204px 768px e 425px é passado na linha uma classe que define a quantidade 
       de colunas. uso a referencia assim: md = 1024px, ms = 800px sm 425px e os numeros representam 
@@ -111,7 +194,57 @@
       ms2 uma linha de 2 colunas
       sm2 uma linha com 2 colunas que fica assim .md3-ms2-sm2
    -->
-            <div class="row md3-ms2-sm2">
+            <div class="row md3-ms2-sm1">
+               <div class="col-4">
+                  <div class="code">
+                     <h2>Criando uma sessão com três cards</h2>
+                     <img src="./src/images/cards-4.png" alt="">
+                  </div>
+               </div>
+               <div class="col-4">
+                  <div class="code_info__class">
+                     <strong>Layout desktop-first</strong>
+                     <p>
+                        vamos adicionar a responsividade utilizando as classes:
+                        <span>lembre-se vamos trabalhar com colunas: quatro, três, duas ou uma coluna</span>
+                     </p>
+
+                     <div class="code_info_list">
+                        <div><strong>md4, md3, md2</strong>colunas para tablet</div>
+                        <div><strong>ms3, ms2, ms1</strong>para ipad</div>
+                        <div><strong>sm1, sm2</strong> <br> <strong>sm</strong>ou será uma coluna ou duas para mobile</div>
+                     </div>
+                     <strong>vamos iniciar com:</strong>
+                     <div class="code_info__sizes">                        
+                        <div>
+                           <span>md4-ms2-sm1</span>
+                           <span>md4-ms2-sm2</span>
+                           <span>md4-ms3-sm1</span>
+                           <span>md4-ms3-sm2</span>
+                           <span>md4-ms3-sm3</span>     
+                           <span>md3-ms3-sm1</span>
+                           <span>md3-ms3-sm2</span>                                                     
+                        </div>
+                        <div>
+                           <span>md3-ms2-sm1</span> 
+                           <span>md3-ms2-sm2</span>
+                           <span>md3-ms1-sm1</span>
+                           <span>md2-ms1-sm1</span>
+                           <span>md2-ms2-sm1</span>
+                           <span>md2-ms2-sm2</span>
+                           <span>md2-ms2-sm2</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-4">
+                  <div class="code">
+                     <h2>Aplicando responsividade aos cards</h2>
+                     <img src="./src/images/cards-res.png" alt="">
+                  </div>
+               </div>
+            </div>
+            <div class="row md3-ms2-sm1">
                <div class="col-4">
                   <div class="card_demo">
                      <p>col-4</p>
@@ -160,7 +293,48 @@
 
       <section class="section_demo">
          <div class="container">
-            <div class="rowap md2-ms2-sm2">
+            <div class="row md2-ms2-sm1">
+               <div class="col-4">
+                  <div class="code">
+                     <h2>Criando uma sessão com três cards</h2>
+                     <img src="./src/images/rowap.png" alt="">
+                  </div>
+               </div>
+               <div class="col-4">
+                  <div class="code_info__class">
+                     <strong>Layout com quebra de linha</strong>
+                     <p>
+                        Vamos alterar a classe row para <strong>rowap</strong> caso queira uma quebra de lina 
+                        e com isso os cards ficarão um em baixo do outro , mas não deixando de ser uma linha 
+                        com três colunas.
+                     </p>
+
+                     
+                     <strong>vamos iniciar com:</strong>
+                     <div class="code_info__sizes">                        
+                        <div>
+                           <span>md4-ms2-sm1</span>
+                           <span>md4-ms2-sm2</span>
+                           <span>md4-ms3-sm1</span>
+                           <span>md4-ms3-sm2</span>
+                           <span>md4-ms3-sm3</span>     
+                           <span>md3-ms3-sm1</span>
+                           <span>md3-ms3-sm2</span>                                                     
+                        </div>
+                        <div>
+                           <span>md3-ms2-sm1</span> 
+                           <span>md3-ms2-sm2</span>
+                           <span>md3-ms1-sm1</span>
+                           <span>md2-ms1-sm1</span>
+                           <span>md2-ms2-sm1</span>
+                           <span>md2-ms2-sm2</span>
+                           <span>md2-ms2-sm2</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="rowap md3-ms2-sm2">
                <div class="col-4">
                   <div class="card_demo">
                      <p>col-4</p>
@@ -186,7 +360,7 @@
                      <p>col-4</p>
                   </div>
                </div>
-            </div>            
+            </div>
          </div>
       </section>
 
@@ -273,6 +447,7 @@
       </section>
 
    </main>
+   <script src="./src/prism.js"></script>
 </body>
 
 </html>
