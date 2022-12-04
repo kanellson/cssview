@@ -60,52 +60,62 @@ screen and (max-width:64em) {
    }
 
    /* flexcols 1024 */
-   .fx21>* {
+   .fx2-1>* {
       flex: 20%;
       max-width: 20%;
    }
 
-   .fx21>*:last-child {
+   .fx2-1>*:last-child {
       flex: 1;
       max-width: 100%
    }
 
-   .fx22>* {
+   .fx2-2>* {
       flex: 25%;
       max-width: 25%;
    }
 
-   .fx22>*:last-child {
+   .fx2-2>*:last-child {
       flex: 1;
       max-width: 100%
    }
 
-   .fx23>* {
+   .fx2-3>* {
       flex: 30%;
       max-width: 30%;
    }
 
-   .fx23>*:last-child {
+   .fx2-3>*:last-child {
       flex: 1;
       max-width: 100%
    }
 
-   .fx24>* {
+   .fx2-4>* {
       flex: 35%;
       max-width: 35%;
    }
 
-   .fx24>*:last-child {
+   .fx2-4>*:last-child {
       flex: 1;
       max-width: 100%
    }
 
-   .fx25>* {
+   .fx2-5>* {
       flex: 40%;
       max-width: 40%;
    }
 
-   .fx25>*:last-child {
+   .fx2-5>*:last-child {
+      flex: 1;
+      max-width: 100%
+   }
+
+   .fx2-6>* {
+      flex: 50%;
+      max-width: 50%;
+   }
+
+   .fx2-6>*:last-child {
       flex: 1;
       max-width: 100%
    }
@@ -125,8 +135,8 @@ screen and (max-width:50em) {
    }
 
    .rowns {
-      padding-left: 0.4rem;
-      padding-right: 0.4rem;
+      padding-left: 0.2rem;
+      padding-right: 0.2rem;
    }
 
    .row,
@@ -168,19 +178,23 @@ screen and (max-width:50em) {
    .md4-ms3-sm3>* {
       flex: 33.333333%;
       max-width: 33.333333%;
-   }
+   } 
 
 }
 
-/* max-width:27em 425px */
-@media screen and (max-device-width:26.6em),
-screen and (max-width:26.6em) and (orientation: landscape) {
+/* max-width:37.5em 600px */
+@media screen and (max-device-width:37.5em),
+screen and (max-width:37.5em) and (orientation: landscape) {
 
    html {
       font-size: 0.9rem;
    }
 
    .container {
+      width: min(98vw, 70rem);
+   }
+
+   .container-md {
       width: min(98vw, 70rem);
    }
 
@@ -218,6 +232,31 @@ screen and (max-width:26.6em) and (orientation: landscape) {
    .md4-ms3-sm3>* {
       flex: 33.333333%;
       max-width: 33.333333%;
+   }
+
+   .rowns {
+      flex-wrap: wrap;
+      gap: 0.6rem 0;
+   }
+
+   .fx2-1-1 > *,
+   .fx2-2-1 > *,
+   .fx2-3-1 > *,
+   .fx2-4-1 > *,
+   .fx2-5-1 > *,
+   .fx2-6-1 > * {
+      flex: 100%;
+      max-width: 100%;
+   }
+
+   .fx2-1-2 > *,
+   .fx2-2-2 > *,
+   .fx2-3-2 > *,
+   .fx2-4-2 > *,
+   .fx2-5-2 > *,
+   .fx2-6-2 > * {
+      flex: 50%;
+      max-width: 50%;
    }
 
 }

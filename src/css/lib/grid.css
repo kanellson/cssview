@@ -5,6 +5,11 @@
    margin: 0 auto;
 }
 
+.container-md {
+   width: min(90vw, 70rem);
+   margin: 0 auto;
+}
+
 .rowns {
    position: relative;
    display: flex;
