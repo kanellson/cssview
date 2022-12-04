@@ -5,7 +5,7 @@
    CssView é uma estrutura de classes já predefinidas usando grids de 12 colunas e 
    uma estrutura de 3 breakpoints usando max-width, isso mesmo desktop-first: 1024px, 800px e 600px.
 
-   <a href="https://kanellson.github.io/cssview/" target="_blank"><strong>➥ CssView Demo</strong></a>
+   <a target="_blank" href="https://kanellson.github.io/cssview/"><strong>➥ CssView Demo</strong></a>
    </div>
 <br />
 
